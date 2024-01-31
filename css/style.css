@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: #2e2b29  ;
+    scroll-behavior: smooth;
+    background-color: #deeff0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 130vh;
+    box-sizing: border-box;
+    gap:3vh;
+    overflow: hidden;
+}
+
+/* estilos pagina index */
+/* HEADER */
+.cabecera{
+    padding: 1rem;
+    margin: -1rem;
+    border: 0.1rem black solid;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    min-height: 60px;
+}
+.logo{
+    width:auto;
+    height: 100%;
+}
+.botones{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.botones a{
+    padding: 0.7rem;
+    text-decoration: none;
+    font-size: auto;
+}
+.botones a:hover{
+    border: #31598c 0.10rem solid;
+    background-color: #31588c85;
+    border-radius: 20px;
+}
+
+/* CUERPO */
+
+.imagenEmpresa{
+    box-sizing: border-box;
+    width: 100%;
+    height: 40vh;
+    border: 2px black solid;
+}
+
+.productos{
+    width: 100%;
+    height: 50vh;
+    border: 2px black solid;
+}
+/* FOOTER */
+footer{
+    border: 2px black solid;
+    width: 100%;
+    height: 30vh;
+}

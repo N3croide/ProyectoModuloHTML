@@ -72,8 +72,8 @@ main{
 }
 .controlR,
 .controlL{
-    align-self: top;
-    margin: -68vh 0 0 0;
+
+    margin: -69vh 0 0 0;
     width: 4%;
     background-color: rgba(255, 255, 255, 0);
     height: 110%;
@@ -104,7 +104,7 @@ main{
     display: none;
 }
 .slide img{
-    width:90vw;
+    width:100%;
     height: auto;
 }
 

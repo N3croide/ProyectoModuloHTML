@@ -17,15 +17,12 @@ main{
     box-sizing: border-box;
     gap:9vh;
 }
-main > *{
-    background-color: rgba(255, 255, 255, 0);
-}
+
 /* estilos pagina index */
 /* HEADER */
 .cabecera{
     padding: 1rem;
     margin: -1rem;
-    background-color: rgba(216, 208, 208, 1);
     width: 100%;
     height: 8vh;
     display: flex;
@@ -40,31 +37,47 @@ main > *{
 li{
     list-style: none;
 }
-/* nav{
-    padding: 40px 0;
+.nav{
+    --state-close:scale(0);
+    --state-open:scale(1);
+    --state-menu:translate(-100%);
+
+    padding: 10px 0;
     display: grid;
     justify-content: space-between;
     align-items: center;
     grid-template-columns: repeat(2,max-content);
-} */
-/* .nav_hambur,
+}
+.nav:target{
+    --state-close:scale(1);
+    --state-open:scale(0);
+    --state-menu:translate(0)
+}
+
+.nav_hamb,
 .nav_close{
     cursor: pointer;
     grid-column: -2/-1;
-    grid-row: 2/1;
-} */
+    grid-row: 1/2;
+    transition: .4s transform;
+}
+
+.nav_hamb{
+    transform: var(--state-open);
+}
+.nav_close{
+    transform: var(--state-close);
+}
 header{
     box-sizing: border-box;
-}
-.cabecera *{
-    background-color: initial;
 }
 
 .logo{
     width:auto;
-    height: 100%;
+    height:40px;
+    z-index: 1;
 }
-.botones{
+/* .botones{
     display: flex;
     width: 50%;
     height: 50%;
@@ -72,8 +85,29 @@ header{
     align-self: center;
     align-items: center;
     justify-content: space-between;
+} */
+.botones{
+    position:fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+
+    display: grid;
+    align-content: center;
+    gap: 2em;
+    padding-left: 4%;
+
+    transform: var(--state-menu);
+    transition: .3s transform;
+}
+.botones li,.botones li *{
+    background-color: unset;
 }
 .botones a{
+
     padding: 0.7rem;
     text-decoration: none;
     font-size: auto;
@@ -82,6 +116,31 @@ header{
     border: #31598c 0.10rem solid;
     background-color: #31588c85;
     border-radius: 20px;
+}
+
+@media (min-width:768px){
+    .nav{
+        --state-open:scale(0);
+        --state-menu:translate(0);
+    }
+    .nav:target{
+        --state-close:scale(0);
+    }
+    .botones{
+        padding: 0;
+        position: unset;
+        background-color: rgba(255, 255, 255, 0.5);
+    
+        display: grid;
+        align-content: center;
+        gap: 1.5em;
+        grid-auto-flow: column;
+    
+        transform: unset;
+        
+        grid-column: -2/-1;
+        grid-row: 1/2;
+    }
 }
 
 /* CUERPO */

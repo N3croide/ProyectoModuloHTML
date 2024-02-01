@@ -3,33 +3,58 @@
 *{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    color: #2e2b29  ;
-    background-color: #deeff0;
+    color: #2e2b29;
+    background-color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
 }
 main{
     padding: 1rem;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 130vh;
+    height: 100vh;
     box-sizing: border-box;
-    gap:3vh;
-    overflow: hidden;
+    gap:9vh;
 }
-
+main > *{
+    background-color: rgba(255, 255, 255, 0);
+}
 /* estilos pagina index */
 /* HEADER */
 .cabecera{
     padding: 1rem;
     margin: -1rem;
-    background-color: rgba(255, 0, 0, 0.65);
-    width: 100vw;
+    background-color: rgba(216, 208, 208, 1);
+    width: 100%;
     height: 8vh;
     display: flex;
     box-sizing: border-box;
     flex-direction: row;
     min-height: 50px;
+    box-sizing: border-box;
+    position: fixed ;
+    z-index: 1;
+    overflow: hidden;
+}
+li{
+    list-style: none;
+}
+/* nav{
+    padding: 40px 0;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(2,max-content);
+} */
+/* .nav_hambur,
+.nav_close{
+    cursor: pointer;
+    grid-column: -2/-1;
+    grid-row: 2/1;
+} */
+header{
+    box-sizing: border-box;
 }
 .cabecera *{
     background-color: initial;
@@ -62,25 +87,39 @@ main{
 /* CUERPO */
 
 .imagenEmpresa{
+    position: relative;
     overflow: hidden;
     margin: 0 auto;
-    width: 90%;
+    width: 100dvw;
     height: 100%;
-    max-height: 90vh;
-    min-height: 30vh;
+    min-height: max(70vh,25rem);
+    margin-top: -4%;
+    margin:-4% -1rem;    
+    z-index: 0;
 }
 .controlR,
 .controlL{
-    margin: -63vh 0 0 0;
+    /* margin: -36% 0 0 0;
     width: 4%;
     background-color: rgba(255, 255, 255, 0);
     height: 105%;
     z-index: 3;
-    float: right;
-    position: sticky;
+    float: right; */
+    position: absolute; /* Cambia a posición absoluta */
+    top: 0;
+    bottom: 0;
+    margin: auto; /* Centra verticalmente */
+    width: 4%;
+    background-color: rgba(255, 255, 255, 0);
+    height: 100%; /* Cambia a 100% de altura */
+    z-index: 3;
 }
+
 .controlL{
-    float: left;
+    left: 0;
+}
+.controlR {
+    right: 0;
 }
 .controlR label,
 .controlL label{
@@ -98,6 +137,7 @@ main{
 }
 .slide{
     display: flex;
+    z-index: 1;
     width: 300%;
     height: 100%;
     transition: margin-left 800ms cubic-bezier(0.770, 0.000,0.175,1.000);
@@ -106,7 +146,10 @@ main{
     display: none;
 }
 .slide img{
-    width:100%;
+    object-fit:cover;
+    max-width: 100dvw;
+    max-height: 100%;
+    width: 100dvw;
     height: auto;
 }
 
@@ -136,6 +179,7 @@ main{
 #slide3:checked ~ .controlL label:nth-child(2){
     float: left;
     display: block;
+    z-index: 3;
     margin: 0 0 0 0 0;
     background-image: url(../images/arrow-ios-back.svg);
     background-repeat: no-repeat;
@@ -144,7 +188,10 @@ main{
     
 .productos{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    margin-top: 2%;
+    grid-auto-rows: dense;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
     width: 100%;
     height: 60%;
 
@@ -156,25 +203,46 @@ main{
     align-items: center;
     margin: 5px;
     width: 50%;
+    box-shadow: 0 0 8px;
+    border: 1px rgba(0, 0, 0, 0.385) solid;
+    border-radius: 20px;
+    overflow: hidden;
+    gap: 15px;
 }
 .producto img{
     width: 100%;
     height: 70%;
     background-color: black;
 }
-.producto span{
+.producto span, .producto span strong{
     width: 100%;
     text-align: center;
+    font-size:  80%;
 }
 .desc{
     text-align: center;
     float:bottom;
-    width: 100%;
+    width: fit-content;
     height: 30%;
 }
+
 /* FOOTER */
-footer{
+.informacionFooter{
     border: 2px black solid;
     width: 100%;
     height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoFooter img{
+    width: auto;
+    height: 100%;
+}
+.logoFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
 }

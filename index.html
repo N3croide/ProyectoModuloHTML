@@ -8,14 +8,20 @@
 </head>
 <body>
     <main>
-        <header>
-            <nav class="cabecera">
+        <header class="hero">
+            <nav class="nav cabecera" id="nav">
                 <img class="logo" src="images/logo.png" alt="logoEmpresa">
-                <div class="botones">
-                    <a href="pages/catalogo.html">Catalogo</a>
-                    <a href="#aboutUs">Quienes Somos</a>
-                    <a href="#nosotros">Contactenos</a>
-                </div>
+                <ul class="botones">
+                    <li><a href="pages/catalogo.html">Catalogo</a></li>
+                    <li><a href="#aboutUs">Quienes Somos</a></li>
+                    <li><a href="#nosotros">Contactenos</a></li>
+                </ul>
+                <!-- <a href="#nav" class="nav_hamb">
+                    <img src="images/menu.svg" alt="">
+                </a>
+                <a href="#" class="nav_close">
+                    <img src="images/close.svg" alt="">
+                </a> -->
             </nav>
         </header>
         <div id="aboutUs" class="imagenEmpresa">
@@ -42,30 +48,35 @@
             </div>
         </div>
         <div class="productos">
+
             <div class="producto pr1">
-                <span>titulo</span>
+                <span><strong>OPTIMIZADO PARA TODOS LOS GAMERS</strong></span>
                 <img src="images/prod1.avif" alt="imagen">
                 <div class="desc">
-                    a
+                    <span>Nuestro sobremesa más avanzado, ideal para gamers y streamers, ahora con procesadores Intel® de hasta 14.ª generación y tarjeta gráfica NVIDIA® GeForce RTE™ 4090.</span>
                 </div>
             </div>
+
             <div class="producto pr2">
                 <span>titulo</span>
                 <img src="images/prod2.avif" alt="imagen">
                 <div class="desc">
-                    a
+                    <span></span>
                 </div>
             </div>
             <div class="producto pr3">
-                <span>titulo</span>
+                <span><strong>a</strong></span>
                 <img src="images/prod3.avif" alt="imagen">
                 <div class="desc">
-                    a
+                    <span></span>
                 </div>
             </div>
         </div>
         <footer id="nosotros">
-
+            <div class="informacionFooter">
+                <div class="logoFooter"><img src="images/logo.png" alt="logo"></div>
+                <div class="descFoot">a</div>
+            </div>
         </footer>
     </main>
 </body>

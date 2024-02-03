@@ -10,17 +10,17 @@
     <main>
         <header class="hero">
             <nav class="nav cabecera" id="nav">
-                <img class="logo" src="images/logo.png" alt="logoEmpresa">
+                <img class="logo" src="images/resources/logo.png" alt="logoEmpresa">
                 <ul class="botones">
                     <li><a href="catalogo.html">Catalogo</a></li>
                     <li><a href="#aboutUs">Quienes Somos</a></li>
                     <li><a href="#nosotros">Contactenos</a></li>
                 </ul>
                 <a href="#nav" class="nav_hamb">
-                    <img src="images/menu.svg" alt="">
+                    <img src="images/resources/menu.svg" alt="">
                 </a>
                 <a href="#" class="nav_close">
-                    <img src="images/close.svg" alt="">
+                    <img src="images/resources/close.svg" alt="">
                 </a>
             </nav>
         </header>
@@ -30,9 +30,9 @@
             <input type="radio" name="slider" id="slide3">
 
             <div class="slide">
-                <img src="images/banner3.avif" alt="imagen de banner">
-                <img src="images/banner2.avif" alt="imagen de banner">
-                <img src="images/banner1.avif" alt="imagen de banner">
+                <img src="images/resources/banner3.avif" alt="imagen de banner">
+                <img src="images/resources/banner2.avif" alt="imagen de banner">
+                <img src="images/resources/banner1.avif" alt="imagen de banner">
             </div>
              
             <div class="controlL">
@@ -49,41 +49,121 @@
         </div>
         <div class="productos">
 
-            <div class="producto pr1">
-                <img src="images/prod1.avif" alt="imagen">
+            <a href="#popup1" class="producto pr1">
+                <img src="images/resources/prod1.avif" alt="imagen">
                 <span><strong>OPTIMIZADO PARA TODOS LOS GAMERS</strong></span>
                 <div class="desc">
                     <span>Nuestro sobremesa más avanzado, ideal para gamers y streamers, ahora con procesadores Intel® de hasta 14.ª generación y tarjeta gráfica NVIDIA® GeForce RTE™ 4090.</span>
                 </div>
-            </div>
+            </a>
 
-            <div class="producto pr2">
-                <img src="images/prod2.avif" alt="imagen">
+            <a href="#popup2" class="producto pr2">
+                <img src="images/resources/prod2.avif" alt="imagen">
                 <span><strong>IMPRESIONE A SUS ADVERSARIOS. SORPRÉNDASE.</strong></span>
                 <div class="desc">
                     <span>Supere a sus oponentes con potencia de vanguardia y enfriamiento Cryo-tech avanzado en las laptops para gaming serie M de 16” y 18”.</span>
                 </div>
-            </div>
-            <div class="producto pr3">
-                <img src="images/prod3.avif" alt="imagen">
+            </a>
+            <a href="#popup3" class="producto pr3">
+                <img src="images/resources/prod3.avif" alt="imagen">
                 <span><strong>DISEÑADO PARA COMPETIR</strong></span>
                 <div class="desc">
                     <span>Revoluciona cómo juegas con un teclado codiseñado por jugadores profesionales. Incluye conmutadores mecánicos Alienware intercambiables en caliente.</span>
                 </div>
-            </div>
+            </a>
         </div>
+        <!-- POPUPS -->
+        <section>
+            <div id="popup1" class="overlay">
+                <div id="popupBody">
+                    <a id="cerrar" href="#" style="text-decoration: none;">&times</a>
+                    <div class="popupContent">
+                        <div class="imgProd prod1" style="--img:url('/images/desktop/prod1/prod1main.avif')">
+                            <img src="images/desktop/prod1/prod1extra1.avif" alt="" class="imgThumb p1">
+                            <img src="images/desktop/prod1/prod1extra2.avif" alt="" class="imgThumb p2">
+                            <img src="images/desktop/prod1/prod1extra3.avif" alt="" class="imgThumb p3">
+                            <img src="images/desktop/prod1/prod1extra4.avif" alt="" class="imgThumb p4">
+                            <img src="images/desktop/prod1/prod1extra5.avif" alt="" class="imgThumb p5">
+                            <img src="" alt="" class="imgMain">
+                        </div>
+                        <div class="general">
+                            <h1>SOBREMESA PARA GAMING ALIENWARE AURORA R16</h1>
+                            <img src="images/resources/estrellass.png" alt="">
+                            <span>
+                                <h2>OPTIMIZADO PARA TODOS LOS JUGADORES</h2>
+                                Experimenta un equipo de sobremesa para gaming hecho para rendir con un diseño eficiente, con elementos térmicos optimizados y ruido reducido.
+                                <br>
+                                <br>
+                                <br>
+                                <b>DESDE 1.449,00 €</b><br>
+                            </span>
+                            <button class="botonComp">Comprar</button>
+                        </div>
+                        <div class="tabla">
+                            <div class="columnasTabla">
+                                <h2>DIMENSIONES Y PESO</h2>
+                                <div class="listaEspe">
+                                    <span>Altura: 418,00 mm (16,46")</span>
+                                    <span>Anchura: 197 mm (7,75")</span>
+                                    <span>Profundidad: 458,40 mm (18,05")</span>
+                                    <span>Peso (máximo): 15,37 kg (33,89 lb)</span>
+                                </div>
+                            </div>
+                            <div class="columnasTabla">
+                                <h2>PUERTOS DELANTEROS</h2>
+                                <div class="listaEspe">
+                                    <span>Conector para auriculares global</span> 
+                                    <span>2 puertos USB 3.2 de 1.ª generación.</span> 
+                                    <span>Puerto USB 3.2 de 1.ª generación con tecnología PowerShare.</span> 
+                                    <span>Puerto USB 3.2 Type-C® de 2.ª generación con tecnología PowerShare</span> 
+                                </div>
+                            </div>
+                            <div class="columnasTabla">
+                                <h2>COMPONENTES</h2>
+                                <div class="listaEspe">
+                                    <span>NVIDIA® GeForce RTX™ serie 40</span> 
+                                    <span>Intel® Core™ de hasta 5,8 GHz en el i7K y 6,1 GHz en el i9K.</span> 
+                                    <span>Refrigeración líquida o de aire</span> 
+                                    <span>Windows 11 Home, inglés, francés, italiano, portugués y español</span> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="popup2" class="overlay">
+                <div id="popupBody">
+                    <h2>Título de la ventana</h2>
+                    <a id="cerrar" href="#" style="text-decoration: none;">&times</a>
+                    <div class="popupContent">
+                        <p>Este es el contenido</p>
+                    </div>
+                </div>
+            </div>
+            <div id="popup3" class="overlay">
+                <div id="popupBody">
+                    <h2>Título de la ventana</h2>
+                    <a id="cerrar" href="#" style="text-decoration: none;">&times</a>
+                    <div class="popupContent">
+                        <p>Este es el contenido</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <footer id="nosotros">
             <div class="informacionFooter">
-                <div class="logoFooter"><img src="images/logo.png" alt="logo"></div>
+                <div class="logoFooter">
+                    <img src="images/resources/logo2.png" alt="logo">
+                </div>
                 <div class="icons">
-                    <img src="images/facebook.svg" alt="">
-                    <img src="images/twitter.svg" alt="">
-                    <img src="images/youtube.svg" alt="">
-                    <img src="images/facebook.svg" alt="">
+                    <img src="images/resources/facebook.svg" alt="">
+                    <img src="images/resources/twitter.svg" alt="">
+                    <img src="images/resources/youtube.svg" alt="">
+                    <img src="images/resources/facebook.svg" alt="">
                 </div>
                 <div class="descFoot">
                     <div class="col columna1">
-                        <strong>Tienda</strong>
+                        <strong>TIENDA</strong>
                         <ul>
                             <li>Easy Builder</li>
                             <li>Gaming PCs</li>
@@ -91,9 +171,9 @@
                         </ul>
                     </div>
                     <div class="col columna2">
-                        <strong>Soporte</strong>
+                        <strong>SOPORTE</strong>
                         <ul>
-                            <li>Soprote</li>
+                            <li>Soporte</li>
                             <li>Estado De la orden</li>
                             <li>Drivers y descargas</li>
                             <li>Politica de devoluciones</li>
@@ -101,7 +181,7 @@
                         </ul>
                     </div>
                     <div class="col columna4">
-                        <strong>Compañia</strong>
+                        <strong>COMPAÑIA</strong>
                         <ul>
                             <li>Sobre Nosotos</li>
                             <li>Blog</li>

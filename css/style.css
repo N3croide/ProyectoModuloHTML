@@ -16,7 +16,7 @@ main{
     /* gap:2vh; */
     overflow-x: hidden;
     z-index: 0;
-    background-image: url(/images/resources/background.jpg);
+    background-image: url(./images/resources/background.jpg);
     background-size: 30%;
 }
 

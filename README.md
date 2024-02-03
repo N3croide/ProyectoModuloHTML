@@ -4,7 +4,6 @@
 - **styles.css**: Archivo principal de estilos CSS que se aplica a toda la aplicación.
 - **images/**: Carpeta que contiene las imágenes utilizadas en el proyecto.
 - **resources/**: Carpeta que contiene recursos, como fondos y flechas de navegación.
-- **fonts/**: Carpeta que podría contener fuentes personalizadas, aunque en este proyecto se utiliza principalmente fuentes del sistema y de Google Fonts.
 
 ### Reglas Generales
 

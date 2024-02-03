@@ -453,23 +453,137 @@ footer{
 
 
 /* CAMBIOS DE IMAGEN */
-.imgProd.prod1 .imgThumb.p1:hover ~ .imgMain{content: url('/images/desktop/prod1/prodextra1.avif');}
-.imgProd.prod1 .imgThumb.p2:hover ~ .imgMain{content: url('/images/desktop/prod1/prodextra2.avif')}
-.imgProd.prod1 .imgThumb.p3:hover ~ .imgMain{content: url('/images/desktop/prod1/prodextra3.avif')}
-.imgProd.prod1 .imgThumb.p4:hover ~ .imgMain{content: url('/images/desktop/prod1/prodextra4.avif')}
-.imgProd.prod1 .imgThumb.p5:hover ~ .imgMain{content: url('/images/desktop/prod1/prodextra5.avif')}
 
-.imgProd.prod2 .imgThumb.p1:hover ~ .imgMain{content: url('/images/laptop/prod1/prodextra1.avif');}
-.imgProd.prod2 .imgThumb.p2:hover ~ .imgMain{content: url('/images/laptop/prod1/prodextra2.avif')}
-.imgProd.prod2 .imgThumb.p3:hover ~ .imgMain{content: url('/images/laptop/prod1/prodextra3.avif')}
-.imgProd.prod2 .imgThumb.p4:hover ~ .imgMain{content: url('/images/laptop/prod1/prodextra4.avif')}
-.imgProd.prod2 .imgThumb.p5:hover ~ .imgMain{content: url('/images/laptop/prod1/prodextra5.avif')}
+/* DESKTOP */
+.imgProd.des1 .imgThumb.p1:hover ~ .imgMain{content: url('/images/desktop/prod1/prodextra1.avif');}
+.imgProd.des1 .imgThumb.p2:hover ~ .imgMain{content: url('/images/desktop/prod1/prodextra2.avif')}
+.imgProd.des1 .imgThumb.p3:hover ~ .imgMain{content: url('/images/desktop/prod1/prodextra3.avif')}
+.imgProd.des1 .imgThumb.p4:hover ~ .imgMain{content: url('/images/desktop/prod1/prodextra4.avif')}
+.imgProd.des1 .imgThumb.p5:hover ~ .imgMain{content: url('/images/desktop/prod1/prodextra5.avif')}
 
-.imgProd.prod3 .imgThumb.p1:hover ~ .imgMain{content: url('/images/accessories/prod1/prodextra1.avif');}
-.imgProd.prod3 .imgThumb.p2:hover ~ .imgMain{content: url('/images/accessories/prod1/prodextra2.avif')}
-.imgProd.prod3 .imgThumb.p3:hover ~ .imgMain{content: url('/images/accessories/prod1/prodextra3.avif')}
-.imgProd.prod3 .imgThumb.p4:hover ~ .imgMain{content: url('/images/accessories/prod1/prodextra4.avif')}
-.imgProd.prod3 .imgThumb.p5:hover ~ .imgMain{content: url('/images/accessories/prod1/prodextra5.avif')}
+.imgProd.des2 .imgThumb.p1:hover ~ .imgMain{content: url('/images/desktop/prod2/prodextra1.avif');}
+.imgProd.des2 .imgThumb.p2:hover ~ .imgMain{content: url('/images/desktop/prod2/prodextra2.avif')}
+.imgProd.des2 .imgThumb.p3:hover ~ .imgMain{content: url('/images/desktop/prod2/prodextra3.avif')}
+.imgProd.des2 .imgThumb.p4:hover ~ .imgMain{content: url('/images/desktop/prod2/prodextra4.avif')}
+.imgProd.des2 .imgThumb.p5:hover ~ .imgMain{content: url('/images/desktop/prod2/prodextra5.avif')}
+
+.imgProd.des3 .imgThumb.p1:hover ~ .imgMain{content: url('/images/desktop/prod3/prodextra1.avif');}
+.imgProd.des3 .imgThumb.p2:hover ~ .imgMain{content: url('/images/desktop/prod3/prodextra2.avif')}
+.imgProd.des3 .imgThumb.p3:hover ~ .imgMain{content: url('/images/desktop/prod3/prodextra3.avif')}
+.imgProd.des3 .imgThumb.p4:hover ~ .imgMain{content: url('/images/desktop/prod3/prodextra4.avif')}
+.imgProd.des3 .imgThumb.p5:hover ~ .imgMain{content: url('/images/desktop/prod3/prodextra5.avif')}
+
+.imgProd.des4 .imgThumb.p1:hover ~ .imgMain{content: url('/images/desktop/prod4/prodextra1.avif');}
+.imgProd.des4 .imgThumb.p2:hover ~ .imgMain{content: url('/images/desktop/prod4/prodextra2.avif')}
+.imgProd.des4 .imgThumb.p3:hover ~ .imgMain{content: url('/images/desktop/prod4/prodextra3.avif')}
+.imgProd.des4 .imgThumb.p4:hover ~ .imgMain{content: url('/images/desktop/prod4/prodextra4.avif')}
+.imgProd.des4 .imgThumb.p5:hover ~ .imgMain{content: url('/images/desktop/prod4/prodextra5.avif')}
+
+/* LAPTOP */
+
+.imgProd.lp1 .imgThumb.p1:hover ~ .imgMain{content: url('/images/laptop/prod1/prodextra1.avif');}
+.imgProd.lp1 .imgThumb.p2:hover ~ .imgMain{content: url('/images/laptop/prod1/prodextra2.avif')}
+.imgProd.lp1 .imgThumb.p3:hover ~ .imgMain{content: url('/images/laptop/prod1/prodextra3.avif')}
+.imgProd.lp1 .imgThumb.p4:hover ~ .imgMain{content: url('/images/laptop/prod1/prodextra4.avif')}
+.imgProd.lp1 .imgThumb.p5:hover ~ .imgMain{content: url('/images/laptop/prod1/prodextra5.avif')}
+
+.imgProd.lp2 .imgThumb.p1:hover ~ .imgMain{content: url('/images/laptop/prod2/prodextra1.avif');}
+.imgProd.lp2 .imgThumb.p2:hover ~ .imgMain{content: url('/images/laptop/prod2/prodextra2.avif')}
+.imgProd.lp2 .imgThumb.p3:hover ~ .imgMain{content: url('/images/laptop/prod2/prodextra3.avif')}
+.imgProd.lp2 .imgThumb.p4:hover ~ .imgMain{content: url('/images/laptop/prod2/prodextra4.avif')}
+.imgProd.lp2 .imgThumb.p5:hover ~ .imgMain{content: url('/images/laptop/prod2/prodextra5.avif')}
+
+.imgProd.lp3 .imgThumb.p1:hover ~ .imgMain{content: url('/images/laptop/prod4/prodextra1.avif');}
+.imgProd.lp3 .imgThumb.p2:hover ~ .imgMain{content: url('/images/laptop/prod4/prodextra2.avif')}
+.imgProd.lp3 .imgThumb.p3:hover ~ .imgMain{content: url('/images/laptop/prod4/prodextra3.avif')}
+.imgProd.lp3 .imgThumb.p4:hover ~ .imgMain{content: url('/images/laptop/prod4/prodextra4.avif')}
+.imgProd.lp3 .imgThumb.p5:hover ~ .imgMain{content: url('/images/laptop/prod4/prodextra5.avif')}
+
+.imgProd.lp4 .imgThumb.p1:hover ~ .imgMain{content: url('/images/laptop/prod4/prodextra1.avif');}
+.imgProd.lp4 .imgThumb.p2:hover ~ .imgMain{content: url('/images/laptop/prod4/prodextra2.avif')}
+.imgProd.lp4 .imgThumb.p3:hover ~ .imgMain{content: url('/images/laptop/prod4/prodextra3.avif')}
+.imgProd.lp4 .imgThumb.p4:hover ~ .imgMain{content: url('/images/laptop/prod4/prodextra4.avif')}
+.imgProd.lp4 .imgThumb.p5:hover ~ .imgMain{content: url('/images/laptop/prod4/prodextra5.avif')}
+
+/* ACCESSORIES */
+
+.imgProd.acc1 .imgThumb.p1:hover ~ .imgMain{content: url('/images/accessories/prod1/prodextra1.avif');}
+.imgProd.acc1 .imgThumb.p2:hover ~ .imgMain{content: url('/images/accessories/prod1/prodextra2.avif')}
+.imgProd.acc1 .imgThumb.p3:hover ~ .imgMain{content: url('/images/accessories/prod1/prodextra3.avif')}
+.imgProd.acc1 .imgThumb.p4:hover ~ .imgMain{content: url('/images/accessories/prod1/prodextra4.avif')}
+.imgProd.acc1 .imgThumb.p5:hover ~ .imgMain{content: url('/images/accessories/prod1/prodextra5.avif')}
+
+.imgProd.acc2 .imgThumb.p1:hover ~ .imgMain{content: url('/images/accessories/prod2/prodextra1.avif');}
+.imgProd.acc2 .imgThumb.p2:hover ~ .imgMain{content: url('/images/accessories/prod2/prodextra2.avif')}
+.imgProd.acc2 .imgThumb.p3:hover ~ .imgMain{content: url('/images/accessories/prod2/prodextra3.avif')}
+.imgProd.acc2 .imgThumb.p4:hover ~ .imgMain{content: url('/images/accessories/prod2/prodextra4.avif')}
+.imgProd.acc2 .imgThumb.p5:hover ~ .imgMain{content: url('/images/accessories/prod2/prodextra5.avif')}
+
+.imgProd.acc3 .imgThumb.p1:hover ~ .imgMain{content: url('/images/accessories/prod3/prodextra1.avif');}
+.imgProd.acc3 .imgThumb.p2:hover ~ .imgMain{content: url('/images/accessories/prod3/prodextra2.avif')}
+.imgProd.acc3 .imgThumb.p3:hover ~ .imgMain{content: url('/images/accessories/prod3/prodextra3.avif')}
+.imgProd.acc3 .imgThumb.p4:hover ~ .imgMain{content: url('/images/accessories/prod3/prodextra4.avif')}
+.imgProd.acc3 .imgThumb.p5:hover ~ .imgMain{content: url('/images/accessories/prod3/prodextra5.avif')}
+
+.imgProd.acc4 .imgThumb.p1:hover ~ .imgMain{content: url('/images/accessories/prod4/prodextra1.avif');}
+.imgProd.acc4 .imgThumb.p2:hover ~ .imgMain{content: url('/images/accessories/prod4/prodextra2.avif')}
+.imgProd.acc4 .imgThumb.p3:hover ~ .imgMain{content: url('/images/accessories/prod4/prodextra3.avif')}
+.imgProd.acc4 .imgThumb.p4:hover ~ .imgMain{content: url('/images/accessories/prod4/prodextra4.avif')}
+.imgProd.acc4 .imgThumb.p5:hover ~ .imgMain{content: url('/images/accessories/prod4/prodextra5.avif')}
+
+
+/* HEADSETS */
+
+.imgProd.hd1 .imgThumb.p1:hover ~ .imgMain{content: url('/images/headsets/prod1/prodextra1.avif');}
+.imgProd.hd1 .imgThumb.p2:hover ~ .imgMain{content: url('/images/headsets/prod1/prodextra2.avif')}
+.imgProd.hd1 .imgThumb.p3:hover ~ .imgMain{content: url('/images/headsets/prod1/prodextra3.avif')}
+.imgProd.hd1 .imgThumb.p4:hover ~ .imgMain{content: url('/images/headsets/prod1/prodextra4.avif')}
+.imgProd.hd1 .imgThumb.p5:hover ~ .imgMain{content: url('/images/headsets/prod1/prodextra5.avif')}
+
+.imgProd.hd2 .imgThumb.p1:hover ~ .imgMain{content: url('/images/headsets/prod2/prodextra1.avif');}
+.imgProd.hd2 .imgThumb.p2:hover ~ .imgMain{content: url('/images/headsets/prod2/prodextra2.avif')}
+.imgProd.hd2 .imgThumb.p3:hover ~ .imgMain{content: url('/images/headsets/prod2/prodextra3.avif')}
+.imgProd.hd2 .imgThumb.p4:hover ~ .imgMain{content: url('/images/headsets/prod2/prodextra4.avif')}
+.imgProd.hd2 .imgThumb.p5:hover ~ .imgMain{content: url('/images/headsets/prod2/prodextra5.avif')}
+
+.imgProd.hd3 .imgThumb.p1:hover ~ .imgMain{content: url('/images/headsets/prod3/prodextra1.avif');}
+.imgProd.hd3 .imgThumb.p2:hover ~ .imgMain{content: url('/images/headsets/prod3/prodextra2.avif')}
+.imgProd.hd3 .imgThumb.p3:hover ~ .imgMain{content: url('/images/headsets/prod3/prodextra3.avif')}
+.imgProd.hd3 .imgThumb.p4:hover ~ .imgMain{content: url('/images/headsets/prod3/prodextra4.avif')}
+.imgProd.hd3 .imgThumb.p5:hover ~ .imgMain{content: url('/images/headsets/prod3/prodextra5.avif')}
+
+.imgProd.hd4 .imgThumb.p1:hover ~ .imgMain{content: url('/images/headsets/prod4/prodextra1.avif');}
+.imgProd.hd4 .imgThumb.p2:hover ~ .imgMain{content: url('/images/headsets/prod4/prodextra2.avif')}
+.imgProd.hd4 .imgThumb.p3:hover ~ .imgMain{content: url('/images/headsets/prod4/prodextra3.avif')}
+.imgProd.hd4 .imgThumb.p4:hover ~ .imgMain{content: url('/images/headsets/prod4/prodextra4.avif')}
+.imgProd.hd4 .imgThumb.p5:hover ~ .imgMain{content: url('/images/headsets/prod4/prodextra5.avif')}
+
+/* MONITORS */
+
+.imgProd.mon1 .imgThumb.p1:hover ~ .imgMain{content: url('/images/monitors/prod1/prodextra1.avif');}
+.imgProd.mon1 .imgThumb.p2:hover ~ .imgMain{content: url('/images/monitors/prod1/prodextra2.avif')}
+.imgProd.mon1 .imgThumb.p3:hover ~ .imgMain{content: url('/images/monitors/prod1/prodextra3.avif')}
+.imgProd.mon1 .imgThumb.p4:hover ~ .imgMain{content: url('/images/monitors/prod1/prodextra4.avif')}
+.imgProd.mon1 .imgThumb.p5:hover ~ .imgMain{content: url('/images/monitors/prod1/prodextra5.avif')}
+
+.imgProd.mon2 .imgThumb.p1:hover ~ .imgMain{content: url('/images/monitors/prod2/prodextra1.avif');}
+.imgProd.mon2 .imgThumb.p2:hover ~ .imgMain{content: url('/images/monitors/prod2/prodextra2.avif')}
+.imgProd.mon2 .imgThumb.p3:hover ~ .imgMain{content: url('/images/monitors/prod2/prodextra3.avif')}
+.imgProd.mon2 .imgThumb.p4:hover ~ .imgMain{content: url('/images/monitors/prod2/prodextra4.avif')}
+.imgProd.mon2 .imgThumb.p5:hover ~ .imgMain{content: url('/images/monitors/prod2/prodextra5.avif')}
+
+.imgProd.mon3 .imgThumb.p1:hover ~ .imgMain{content: url('/images/monitors/prod3/prodextra1.avif');}
+.imgProd.mon3 .imgThumb.p2:hover ~ .imgMain{content: url('/images/monitors/prod3/prodextra2.avif')}
+.imgProd.mon3 .imgThumb.p3:hover ~ .imgMain{content: url('/images/monitors/prod3/prodextra3.avif')}
+.imgProd.mon3 .imgThumb.p4:hover ~ .imgMain{content: url('/images/monitors/prod3/prodextra4.avif')}
+.imgProd.mon3 .imgThumb.p5:hover ~ .imgMain{content: url('/images/monitors/prod3/prodextra5.avif')}
+
+.imgProd.mon4 .imgThumb.p1:hover ~ .imgMain{content: url('/images/monitors/prod4/prodextra1.avif');}
+.imgProd.mon4 .imgThumb.p2:hover ~ .imgMain{content: url('/images/monitors/prod4/prodextra2.avif')}
+.imgProd.mon4 .imgThumb.p3:hover ~ .imgMain{content: url('/images/monitors/prod4/prodextra3.avif')}
+.imgProd.mon4 .imgThumb.p4:hover ~ .imgMain{content: url('/images/monitors/prod4/prodextra4.avif')}
+.imgProd.mon4 .imgThumb.p5:hover ~ .imgMain{content: url('/images/monitors/prod4/prodextra5.avif')}
+
 /* ------------------------------------------------------------------ */
 .imgMain{
     grid-column: 2;
